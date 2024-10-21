@@ -1,0 +1,113 @@
+.Quality__testimonials{
+  padding: 6rem 6rem;
+  width: 100%;
+  background: white;
+  
+}
+.Quality__testimonials_information{
+  text-align: center;
+}
+
+.Quality__testimonials_title-secondary {
+  font-size: 1.25rem; 
+  font-weight: 600;
+  color: #F7951E; 
+}
+
+.Quality__testimonials_title-primary {
+  margin-top: 0.5rem; 
+  font-size: 2.25rem;
+  font-weight: 700; 
+  color: #2D3748; 
+}
+.Quality__testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; 
+  margin-top: 4rem; 
+}
+.Quality__testimonial-card {
+  background-color: #FAF3E3; 
+  border-radius: 16px; 
+  padding: 32px; 
+  width: 250px; 
+  max-width: 320px; 
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+.Quality__card-figure{
+  border-radius: 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  
+}
+.Quality__testimonial-body {
+  color: #2D3748; 
+  margin-bottom: 24px; 
+  line-height: 1.75;
+}
+.Quality__testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 16px; 
+}
+.Quality__testimonial-image-wrapper{
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  
+}
+.author-image {
+  width: 100%; 
+  height: 100%; 
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: inherit;
+  background-color: #4B5563; 
+}
+.author-info {
+  text-align: left;
+}
+
+.author-name {
+  font-weight: 600;
+  color: #2D3748; 
+}
+
+.author-handle {
+  color: #6B7280; 
+}
+
+
+@media screen and (min-width: 1920px) {
+  .Quality__testimonials_title-primary {
+    font-size: 2.75rem; 
+  }
+  .Quality__testimonial-body {
+    font-size: 1.125rem; 
+  }
+  .author-name {
+    font-size: 1rem;
+    color: #2D3748; 
+  }
+}
+
+@media (max-width: 1024px) {
+ .Quality__testimonials{
+  padding: 4rem 3rem;
+ }
+}
+
+@media (max-width: 768px) {
+  .Quality__testimonials {
+    padding: 2rem 1rem;
+  }
+  .Quality__testimonials_title-primary {
+    font-size: 1.75rem;
+  }
+  .Quality__testimonials_title-secondary {
+    font-size: 1rem;
+  }
+}

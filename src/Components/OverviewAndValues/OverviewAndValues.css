@@ -1,0 +1,92 @@
+.Quality__overview_values{
+  background: linear-gradient(145deg, #f9f9f9, #f1f1f1);
+  border-radius: 12px;
+  padding: 6rem 6rem;
+}
+.Quality__overview_values_title-third{
+  font-size: 1.25rem; 
+  font-weight: 600;
+  color: #F7951E; 
+}
+.Quality__overview_values_title-primary {
+  font-weight: 700; 
+  color: #0F172A; 
+  margin-top: 0.5rem; 
+  font-size: 2.25rem;
+}
+.Quality__overview_values_title-secondary {
+  margin-top: 1rem; 
+  font-size: 2rem; 
+  font-weight: 700; 
+  line-height: 1.5; 
+  color: #0F172A; 
+}
+.Quality__overview_values_desc{
+  margin-top: 0.5rem; 
+  line-height: 1.625; 
+  color: #334155; 
+}
+.Quality__overview_Corevalues_title-primary{
+  font-weight: 700; 
+  color: #0F172A; 
+  margin-top: 3.3rem; 
+  font-size: 2.25rem;
+}
+.Quality__overview_corevalues-features-grid {
+  margin-top: 2rem; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 2.5rem;
+}
+
+.Quality__overview_corevalues-feature-item {
+  position: relative;
+  padding-left: 2.25rem; 
+}
+
+.Quality__overview_corevalues-feature-header{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 0.75rem;
+}
+
+.Quality__overview_corevalues-icon{
+  position: absolute;
+  left: 0.25rem; 
+  top: 0; 
+  font-size: 1.125rem; 
+}
+
+.Quality__overview_corevalues-feature-description {
+  display: inline;
+  color: #334155;
+}
+
+@media (max-width: 1024px){
+  .Quality__overview_values {
+    padding: 4rem 3rem;
+  }
+  .Quality__overview_values_title-primary,
+  .Quality__overview_values_title-secondary {
+    font-size: 1.75rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Quality__overview_corevalues-features-grid{
+    grid-template-columns: 1fr ; 
+  }
+  .Quality__overview_values{
+    padding: 2rem 1.5rem;
+  }
+  .Quality__overview_values_title-primary {
+    font-size: 1.5rem;
+  }
+  .Quality__overview_values_title-secondary {
+    font-size: 1.25rem;
+  }
+
+}
