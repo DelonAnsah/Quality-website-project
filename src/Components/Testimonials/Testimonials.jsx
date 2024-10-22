@@ -22,7 +22,7 @@ const testimonials = [
     image: testimonial2,
   },
   {
-    body: "Consistently amazing! Cashew Craze Inc. delivers excellence.",
+    body: "Consistently amazing! Quality Foods Distributors delivers excellence.",
     author: "Nana Johnson",
     handle: "@nanajohnson",
     image: testimonial3,

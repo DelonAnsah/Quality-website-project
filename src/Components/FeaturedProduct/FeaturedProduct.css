@@ -108,11 +108,8 @@
   .Quality__featured-products{
     padding: 4rem 3rem;
   }
-  .Quality__featured-products_title-primary {
-    font-size: 3rem; 
-  }
   .Quality__featured-products_title-secondary {
-    font-size: 1.75rem; 
+    font-size: 1.7rem; 
   }
 }
 
@@ -122,6 +119,14 @@
   }
   .Quality__featured-products {
     padding: 3rem 1rem; 
+  }
+  .Quality__featured-products_title-secondary {
+    font-size: 1.4rem; 
+  }
+  .Quality__featured-products_title-primary {
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 7px;
   }
 }
 
@@ -133,5 +138,9 @@
   }
   .Quality__featured-products-card {
     padding: 1rem;
+  }
+  .Quality__featured-products_title-primary {
+    font-size: 1.6rem;
+    
   }
 }
