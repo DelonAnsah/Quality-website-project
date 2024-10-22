@@ -34,8 +34,8 @@ const Hero = () => {
       <div className="Quality__Hero-section-container">
         <div className="Quality__Hero-section-content-wrapper">
           <div style={{ opacity: 1, transform: 'none' }}>
-            <div className="Quality__Hero-section-image-wrapper" style={{ transform: 'none', opacity: 1, objectFit: 'none', background: 'transparent' }}>
-              <img src={heroImage} alt="Hero-image" className='Quality__Hero-section-image'   style={{ backgroundColor: 'transparent' }}/>
+            <div className="Quality__Hero-section-image-wrapper" style={{ transform: 'none', opacity: 1, objectFit: 'none', background: 'transparent'  }}>
+              <img  src={heroImage} alt="Hero-image" loading='lazy'  className='Quality__Hero-section-image' style={{ backgroundColor: 'transparent' }}   />
             </div>
           </div>
           <div className="Quality__Hero-section-text-content">
